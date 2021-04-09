@@ -2,10 +2,33 @@
   text-align: center;
 }
 
+h1 {
+  text-align:center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+}
+
+body {  
+  background: #ffffff;
+  padding: 16px;
+}
+
+canvas {
+  border: 2px ridge gray;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
